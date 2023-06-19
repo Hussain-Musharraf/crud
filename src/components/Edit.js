@@ -48,7 +48,7 @@ function Edit() {
                 </div>
                 <div className="form-group">
                     <label htmlFor="">Email : </label>
-                    <input type="text" name='email' placeholder='Enter Email' className='form-control' value={email} onChange={(e)=>setEmail(e.target.value)} />
+                    <input type="email" name='email' placeholder='Enter Email' className='form-control' value={email} onChange={(e)=>setEmail(e.target.value)} />
                 </div>
                 <div className="d-grid">
                     <input type="submit" value="Update" className='btn btn-primary' />
